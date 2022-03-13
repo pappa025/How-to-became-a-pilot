@@ -1,5 +1,35 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Rubik&display=swap');
+
+/* Header styling */
+header {
+    margin: 1px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10rem;
+    background-color:#0000EB;
+    background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
+    font-family: 'Rubik', sans-serif;    
+   }
+.page-title {    
+    text-align: center;
+    padding: 2rem;
+    color: #0000EB;
+    font-size: 600;
+    text-transform: uppercase, bold;
+    letter-spacing: 4px;
+}
+.navbar {
+    position: absolute;
+    text-align: right;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    }
+li {
+    list-style-type: none;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
 }
