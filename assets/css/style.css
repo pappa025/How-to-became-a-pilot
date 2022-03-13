@@ -18,11 +18,10 @@ header {
     text-transform: uppercase, bold;
     letter-spacing: 4px;
 }
-.navbar {
-    position: absolute;
-    text-align: right;
-    padding-top: 2rem;
-    padding-right: 1rem;
+.navbar > li {
+    display: inline;     
+    text-align: center;
+    padding-bottom: 1rem;
     text-transform: uppercase;
     }
 li {
@@ -33,3 +32,33 @@ li {
 body {
     font-family: 'Lato', sans-serif;
 }
+/* Footer */
+
+footer {
+    text-align: center;
+}
+.social-networks > li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    padding: 5px;
+    margin: 7px;
+    color: #0000EB;
+    }
+
+footer {
+        background-color: #8d715c;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 3;
+    }
+
+footer > p {
+        color: silver;
+    }
