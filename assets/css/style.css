@@ -2,56 +2,57 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    /*Grid gap for initial layout, to be removed later!*/
-    grid-gap: 3px;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12vh 3vh 20vh 20vh 20vh 20vh 5vh;
+    grid-template-areas:
+        "header header header header"
+        "navbar navbar navbar navbar"
+        ". dream dream-pic ."
+        ". first-steps first-steps-pic ."
+        ". medical medical-pic ."
+        ". ppl ppl-pic ."
+        "footer footer footer footer"
 }
-
-/* Header styling */
-header {
-    margin: 1px;
-    grid-column: 1/13;
-    grid-row: 1;
-    background-color: #0000EB;
-    background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
-    font-family: 'Rubik', sans-serif;
-}
-
-.page-title {
-    text-align: center;
-    padding: 2rem;
-    color: #0000EB;
-    font-size: 600;
-    text-transform: uppercase, bold;
-    letter-spacing: 4px;
-}
-
-.navbar {
-    grid-row: 2;
-    grid-column: repeat(3, 1fr);
-    text-align: center;
-    padding-bottom: 1rem;
-    text-transform: uppercase;
 }
 
 body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Sidebar*/
-.links {
-    background-color: red;
-    grid-column: 11/13;
-    grid-row: 3;
-    text-align: right;
+/* Header styling */
+header {
+    grid-area: header;
+    background-color: #0000EB;
+    background: url('assets/images/clouds_header.jpeg') no-repeat center center;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 2rem;
+    color: #0000EB;
+    font-size: 150%;
+    text-transform: uppercase, bold;
+    letter-spacing: 4px;
+}
+
+.page-title {
+    text-align: center;
+    padding: 2rem;
+    color: #0000EB;
+    font-size: 150%;
+    text-transform: uppercase, bold;
+    letter-spacing: 4px;
+}
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 /* Footer */
 
 footer {
-    grid-column: 1-13;
-    grid-row: 4;
+    grid-area: footer;
     text-align: center;
 }
 
@@ -84,12 +85,73 @@ footer>p {
 
 /*main body of the page*/
 
-section {
-    grid-column: 1/11;
-    grid-row: 3;
-    background-color: aquamarine;
+.empty {
+    grid-area: empty;
+    background: red;
+    width: 1fr;
+    height: 20vh;
 }
 
-.main-body {
-    height: 100vh;
+.dream {
+    grid-area: dream;
+    text-align: left;
+}
+
+.dream-pic {
+    grid-area: dream-pic;
+    background: yellow;
+}
+
+.dream-pic>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.first-steps {
+    grid-area: first-steps;
+    text-align: left;
+}
+
+.first-steps-pic {
+    grid-area: first-steps-pic;
+    background: yellow;
+}
+
+.first-steps-pic>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.medical {
+    grid-area: medical;
+    text-align: left;
+}
+
+.medical-pic {
+    grid-area: medical-pic;
+    background: yellow;
+}
+
+.medical-pic>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.ppl {
+    grid-area: ppl;
+    text-align: left;
+}
+
+.ppl-pic {
+    grid-area: ppl-pic;
+    background: yellow;
+}
+
+.ppl-pic>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
