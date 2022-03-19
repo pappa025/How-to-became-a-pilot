@@ -3,16 +3,16 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 5vh 15vh 15vh 15vh 15vh 5vh;
+    grid-template-rows: 20vh 5vh 15vh 15vh 15vh 15vh;
     grid-template-areas:
         "header header header header"
         "navbar navbar navbar navbar"
-        ". dream dream-pic ."
-        ". first-steps first-steps-pic ."
-        ". medical medical-pic ."
-        ". ppl ppl-pic ."
-        "footer footer footer footer"
-}
+        " . dream dream-pic ."
+        " . first-steps first-steps-pic ."
+        " . medical medical-pic ."
+        " . ppl ppl-pic ."
+        
+    }
 }
 
 body {
@@ -29,6 +29,7 @@ header {
     }
 
 .page-title {
+    grid-area: header;
     text-align: center;
     color: #0000EB;
     font-size: 150%;
@@ -48,26 +49,21 @@ header {
 
 /* Footer */
 
-footer {
-    grid-area: footer;
-    text-align: center;
-}
-
 .social-networks>li {
     display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 140%;
     padding: 5px;
-    margin: 7px;
+    margin: 3px;
     color: #0000EB;
 }
 
 footer {
     background-color: #8d715c;
     padding: 5px;
-    margin: 5px;
+    margin: 3px;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -94,8 +90,8 @@ footer>p {
 
 .dream-pic>img {
     object-fit: cover;
-    width: 1fr;
-    max-height: 20vh;
+    width: 100%;
+    max-height: 100%;
 }
 
 .first-steps {
