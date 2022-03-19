@@ -3,7 +3,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 15vh 15vh 15vh 15vh 20vh
+    grid-template-rows: auto;
     grid-template-areas:
         "a a a a"
         "b b c c"
@@ -21,12 +21,14 @@ body {
 
 /* Header styling */
 header {
-    position: fixed;
     text-align: center;
+    grid-area: a;
+    /*position: fixed;    
+    height: 18vh;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 3;*/
     background-color: #0000EB;
     background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
     font-family: 'Rubik', sans-serif;
@@ -62,14 +64,15 @@ header {
 }
 
 footer {
-    position: fixed;
+    /*position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;*/
+    grid-area: j;
     background-color: #8d715c;
     padding: 5px;
     margin: 3px;
     text-align: center;
-    width: 100%;
-    bottom: 0;
-    right: 0;
     z-index: 3;
 }
 
@@ -86,6 +89,7 @@ footer>p {
 
 .dream-pic {
     grid-area: c;
+    display: inline;
     background: yellow;
     }
 
