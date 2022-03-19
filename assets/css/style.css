@@ -2,21 +2,23 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(12, minmax(0,1fr));
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     /*Grid gap for initial layout, to be removed later!*/
     grid-gap: 3px;
 
 }
+
 /* Header styling */
 header {
     margin: 1px;
     grid-column: 1/13;
-    grid-row: 1;    
-    background-color:#0000EB;
+    grid-row: 1;
+    background-color: #0000EB;
     background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
-    font-family: 'Rubik', sans-serif;    
-   }
-.page-title {    
+    font-family: 'Rubik', sans-serif;
+}
+
+.page-title {
     text-align: center;
     padding: 2rem;
     color: #0000EB;
@@ -24,17 +26,19 @@ header {
     text-transform: uppercase, bold;
     letter-spacing: 4px;
 }
+
 .navbar {
     grid-row: 2;
-    grid-column: repeat(3, 1fr);        
+    grid-column: repeat(3, 1fr);
     text-align: center;
     padding-bottom: 1rem;
     text-transform: uppercase;
-    }
+}
 
 body {
     font-family: 'Lato', sans-serif;
 }
+
 /* Sidebar*/
 .links {
     background-color: red;
@@ -42,6 +46,7 @@ body {
     grid-row: 3;
     text-align: right;
 }
+
 /* Footer */
 
 footer {
@@ -49,35 +54,42 @@ footer {
     grid-row: 4;
     text-align: center;
 }
-.social-networks > li {
+
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     padding: 5px;
     margin: 7px;
     color: #0000EB;
-    }
+}
 
 footer {
-        background-color: #8d715c;
-        padding: 5px;
-        margin: 5px;
-        text-align: center;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        z-index: 3;
-    }
+    background-color: #8d715c;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
 
-footer > p {
-        color: silver;
-    }
+footer>p {
+    color: silver;
+}
+
 /*main body of the page*/
 
 section {
     grid-column: 1/11;
     grid-row: 3;
     background-color: aquamarine;
+}
+
+.main-body {
+    height: 100vh;
 }
