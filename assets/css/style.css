@@ -3,14 +3,14 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 5vh 15vh 15vh 15vh 15vh;
+    grid-template-rows: 20vh 15vh 15vh 15vh 15vh 20vh
     grid-template-areas:
-        "header header header header"
-        "navbar navbar navbar navbar"
-        " . dream dream-pic ."
-        " . first-steps first-steps-pic ."
-        " . medical medical-pic ."
-        " . ppl ppl-pic ."
+        "a a a a"
+        "b b c c"
+        "d d e e"
+        "f f g g"
+        "h h i i"
+        "j j j j"
         
     }
 }
@@ -21,16 +21,20 @@ body {
 
 /* Header styling */
 header {
-    grid-area: header;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
     background-color: #0000EB;
     background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
     font-family: 'Rubik', sans-serif;
     color: #0000EB;
+    text-align: center;
     }
 
 .page-title {
-    grid-area: header;
-    text-align: center;
     color: #0000EB;
     font-size: 150%;
     text-transform: uppercase, bold;
@@ -39,12 +43,9 @@ header {
 }
 
 .navbar {
-    grid-area: navbar;
-    text-align: center;
-    padding-bottom: 1rem;
     text-transform: uppercase;
     font-size: 85%;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
 /* Footer */
@@ -61,12 +62,12 @@ header {
 }
 
 footer {
+    position: fixed;
     background-color: #8d715c;
     padding: 5px;
     margin: 3px;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
     right: 0;
     z-index: 3;
@@ -79,12 +80,12 @@ footer>p {
 /*main body of the page*/
 
 .dream {
-    grid-area: dream;
+    grid-area: b;
     text-align: left;
 }
 
 .dream-pic {
-    grid-area: dream-pic;
+    grid-area: c;
     background: yellow;
     }
 
@@ -95,12 +96,12 @@ footer>p {
 }
 
 .first-steps {
-    grid-area: first-steps;
+    grid-area: d;
     text-align: left;
 }
 
 .first-steps-pic {
-    grid-area: first-steps-pic;
+    grid-area: e;
     background: yellow;
 }
 
@@ -111,12 +112,12 @@ footer>p {
 }
 
 .medical {
-    grid-area: medical;
+    grid-area: f;
     text-align: left;
 }
 
 .medical-pic {
-    grid-area: medical-pic;
+    grid-area: g;
     background: yellow;
 }
 
@@ -127,12 +128,12 @@ footer>p {
 }
 
 .ppl {
-    grid-area: ppl;
+    grid-area: h;
     text-align: left;
 }
 
 .ppl-pic {
-    grid-area: ppl-pic;
+    grid-area: i;
     background: yellow;
 }
 
