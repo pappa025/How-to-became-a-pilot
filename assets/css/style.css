@@ -3,7 +3,8 @@
 .container {
     display: grid;
     width: 100%;
-    height: 100vh;
+    height: 80vw;
+    background-color: #b89c86;
     grid-template-columns: 10% 1fr 1fr 10%;
     grid-template-rows:  auto 1fr 1fr 1fr 1fr auto;
     grid-template-areas:
@@ -29,6 +30,7 @@ header {
     font-family: 'Rubik', sans-serif;
     color: #0000EB;
     text-align: center;
+    border-radius: 0px 0px 10px 10px;
     }
 
 .page-title {
@@ -70,6 +72,7 @@ footer {
     margin: 3px;
     text-align: center;
     z-index: 3;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer>p {
