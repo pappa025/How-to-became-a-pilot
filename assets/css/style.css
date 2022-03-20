@@ -58,7 +58,6 @@ footer {
     right: 0;
     background-color: #8d715c;
     padding: 5px;
-    margin: 3px;
     text-align: center;
     z-index: 3;
     border-radius: 10px 10px 0px 0px;
@@ -71,7 +70,7 @@ footer>p {
 /*main body of the page*/
 .main-body {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 15vw 35vw 35vw 15vw;
     grid-template-rows:  20vw 20vw 20vw 20vw 20vw;
     grid-template-areas:
         ". . . ."
@@ -79,7 +78,7 @@ footer>p {
         ". e d ."
         ". f g ."
         ". i h ."
-}
+    }
 
 .dream {
     grid-area: b;
