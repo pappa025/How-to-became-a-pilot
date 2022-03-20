@@ -15,7 +15,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    height: 10vw;    
+    max-height: 10vw;    
     background-color: #0000EB;
     background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
     font-family: 'Rubik', sans-serif;
@@ -25,11 +25,9 @@ header {
     }
 
 .page-title {
-    color: #0000EB;
-    font-size: 150%;
-    text-transform: uppercase, bold;
     letter-spacing: 4px;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    font-size: large;
 }
 
 .navbar {
@@ -96,7 +94,7 @@ footer>p {
 .dream-pic {
     grid-area: c;
     object-fit: cover;
-    width: 20vw;
+    width: 25vw;
     height: 100%;
     background: rgb(75, 37, 22);
     border-radius: 250px 60px 5px 250px;
@@ -113,7 +111,7 @@ footer>p {
     grid-area: e;
     height: 100%;
     object-fit: cover;
-    width: 20vw;
+    width: 25vw;
     border-radius: 60px 250px 250px 5px;
     }
 
@@ -128,7 +126,7 @@ footer>p {
     grid-area: g;
     height: 100%;
     object-fit: cover;
-    width: 20vw;
+    width: 25vw;
     border-radius: 250px 60px 5px 250px;
 }
 
@@ -143,6 +141,6 @@ footer>p {
     grid-area: i;
     height: 100%;
     object-fit: cover;
-    width: 20vw;
+    width: 25vw;
     border-radius: 60px 250px 250px 5px;
 }
