@@ -74,6 +74,7 @@ footer>p {
 /*main body of the page*/
 .main-body {
     display: grid;
+    gap: 10px;
     grid-template-columns: 15vw 35vw 35vw 15vw;
     grid-template-rows: 12vw 15vw 15vw 15vw 15vw;
     grid-template-areas:
@@ -162,6 +163,7 @@ footer>p {
 .c152 {
     grid-area: c152;
     opacity: 0.9;
+    padding: 1rem;
     border-radius: 10px 10px 0px 0px;
     border-color: darkblue;
     border-width: 3px;
@@ -171,6 +173,7 @@ footer>p {
 .c172 {
         grid-area: c172;
         opacity: 0.9;
+        padding: 1rem;
         border-radius: 10px 10px 0px 0px;
         border-color: darkblue;
         border-width: 3px;
@@ -180,6 +183,7 @@ footer>p {
 .piper {
             grid-area: piper;
             opacity: 0.9;
+            padding: 1rem;
             border-radius: 10px 10px 0px 0px;
             border-color: darkblue;
             border-width: 3px;
