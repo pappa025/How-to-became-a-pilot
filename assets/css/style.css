@@ -22,6 +22,7 @@ header {
     color: #0000EB;
     text-align: center;
     border-radius: 0px 0px 10px 10px;
+    z-index: 3;
 }
 
 .page-title {
@@ -197,4 +198,31 @@ footer>p {
     width: 15vw;
     align-content: center;
     border-radius: 10px 10px 10px 10px;
+}
+
+/*Resources html*/
+
+.useful-links {
+    background: url('/assets/images/instrument.jpg') no-repeat center center;
+    display: grid;
+    grid-template-columns: repeat (3, 200px);
+    grid-auto-rows: 200px;
+    grid-auto-flow: column;
+    gap: 1rem;
+    color:#FF7F50;
+    }
+
+.title {
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;    
+    text-transform: uppercase;
+    padding: 1rem;
+    border-color: aliceblue;
+    border-width: 3px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #152D74;
 }
