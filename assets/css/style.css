@@ -3,48 +3,52 @@
 .container {
     background-color: #c0997b;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto minmax(90vh, auto) auto;
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer";
 }
 
 body {
-    display:grid;
     font-family: 'Lato', sans-serif;
 }
 
-/* Header styling */
+/* Header */
 
 header {
-    text-align: center;
     display: grid;
-    width: 100%;
-    top: 0;
-    left: 0;
-    max-height: 10vw;
+    grid-area: nav;
+    grid-template-areas: "header";
+    display: inline;
+    grid-template-columns: 1fr;
     background-color: #0000EB;
     background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
     font-family: 'Rubik', sans-serif;
-    color: #0000EB;
-    text-align: center;
+    color: orange;
     border-radius: 0px 0px 10px 10px;
 }
 
 .page-title {
-    letter-spacing: 4px;
-    padding-top: 0.5rem;
-    font-size: large;
-}
-
-.navbar {
     display: grid;
+    grid-area: header;
+    padding-bottom: 0.5rem;
     justify-content: center;
-    align-content: center;
-    gap: 10vw;
+    gap: 3vw;
     grid-auto-flow: column;
     text-transform: uppercase;
-    font-size: 100%;
-    letter-spacing: 5px;
-    padding-bottom: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+}
+
+.page-title>h1 {
+    align-self: end;
+    text-shadow: 2px 2px 2px rgb(75, 37, 22)
+}
+
+.page-title>a {
+    align-self: end;
+    color: #0000EB;
 }
 
 /* Footer */
@@ -54,7 +58,7 @@ header {
 }
 
 .social-networks i {
-    font-size: 140%;
+    font-size: 2rem;
     padding: 5px;
     margin: 3px;
     color: #0000EB;
@@ -62,11 +66,9 @@ header {
 
 footer {
     display: grid;
+    grid-area: footer;
     width: 100%;
-    bottom: 0;
-    right: 0;
     background-color: #8d715c;
-    padding: 5px;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
 }
@@ -79,10 +81,12 @@ footer>p {
 
 .main-body {
     display: grid;
-    gap: 10px;
+    grid-area: main;
+    gap: 1rem;
+    color: orange;
+    font-size: 1rem;
     grid-template-columns: 15vw 35vw 35vw 15vw;
-    grid-template-rows: 15vw 15vw 15vw 15vw;
-    margin: 3rem 0 2rem 0;
+    grid-template-rows: 17vw 17vw 17vw 17vw;
     grid-template-areas:
         ". b c ."
         ". e d ."
@@ -93,6 +97,7 @@ footer>p {
 .dream {
     grid-area: b;
     text-align: left;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #8d5c82;
     border-radius: 0px 10px 10px 0px;
 }
@@ -110,7 +115,9 @@ footer>p {
 
 .first-steps {
     grid-area: d;
-    text-align: left;
+    text-align: right;
+    align-self: end;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #8d5c5e;
     border-radius: 10px 0px 0px 10px;
 }
@@ -126,6 +133,7 @@ footer>p {
 .medical {
     grid-area: f;
     text-align: left;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #678d5c;
     border-radius: 0px 10px 10px 0px;
 }
@@ -141,7 +149,8 @@ footer>p {
 
 .ppl {
     grid-area: h;
-    text-align: left;
+    text-align: right;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #8d6a5c;
     border-radius: 10px 0px 0px 10px;
 }
@@ -164,7 +173,7 @@ footer>p {
     grid-template-columns: 14vw 24vw 24vw 24vw 14vw;
     grid-template-rows: auto;
     grid-template-areas:
-    "at at at at at"
+        "at at at at at"
         ". c152 c172 piper ."
 
 }
@@ -199,7 +208,7 @@ footer>p {
     border-color: royalblue;
     border-width: 3px;
     background-color: darkblue;
-    tex
+
 }
 
 
@@ -242,8 +251,9 @@ footer>p {
 }
 
 .useful-links>div>h2 {
-    text-align:center;
+    text-align: center;
 }
+
 .title {
     height: 200px;
     width: 200px;
