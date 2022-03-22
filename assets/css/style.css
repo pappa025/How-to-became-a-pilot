@@ -48,7 +48,7 @@ header {
 
 .page-title>a {
     align-self: end;
-    color: #0000EB;
+    color: darkblue;
 }
 
 /* Footer */
@@ -182,12 +182,13 @@ footer>p {
     grid-area: at;
     text-align: center;
     text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(75, 37, 22);
 }
 
 .c152 {
     grid-area: c152;
-    opacity: 0.9;
-    margin: 5rem 0 1rem 0;
+    opacity: 0.8;
+    margin: 2rem 0 1rem 0;
     padding: 1rem;
     border-radius: 10px 10px 0px 0px;
     border-color: royalblue;
@@ -201,7 +202,7 @@ footer>p {
 
 .c172 {
     grid-area: c172;
-    opacity: 0.9;
+    opacity: 0.8;
     padding: 1rem;
     margin: 5rem 0 1rem 0;
     border-radius: 10px 10px 0px 0px;
@@ -218,7 +219,7 @@ footer>p {
 
 .piper {
     grid-area: piper;
-    opacity: 0.9;
+    opacity: 0.8;
     padding: 1rem;
     margin: 5rem 0 1rem 0;
     border-radius: 10px 10px 0px 0px;
@@ -254,17 +255,16 @@ footer>p {
     text-align: center;
 }
 
-.title {
-    height: 200px;
-    width: 200px;
+.tile {
+    height: 250px;
+    width: 250px;
     padding: 1rem;
     text-align: center;
-    justify-content: center;
-    align-content: center;
+    justify-self: center;
+    align-self: center;
+    opacity: 0.8;
     text-transform: uppercase;
     padding: 1rem;
-    border-color: aliceblue;
-    border-width: 3px;
     border-radius: 10px 10px 10px 10px;
-    background-color: #152D74;
+    background-color: darkblue;
 }
