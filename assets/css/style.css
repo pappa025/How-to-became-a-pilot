@@ -187,8 +187,8 @@ footer>p {
 
 .c152 {
     grid-area: c152;
-    opacity: 0.8;
-    margin: 2rem 0 1rem 0;
+    opacity: 0.9;
+    margin: 1rem 0 1rem 0;
     padding: 1rem;
     border-radius: 10px 10px 0px 0px;
     border-color: royalblue;
@@ -202,9 +202,9 @@ footer>p {
 
 .c172 {
     grid-area: c172;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 1rem;
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     border-radius: 10px 10px 0px 0px;
     border-color: royalblue;
     border-width: 3px;
@@ -219,9 +219,9 @@ footer>p {
 
 .piper {
     grid-area: piper;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 1rem;
-    margin: 2rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     border-radius: 10px 10px 0px 0px;
     border-color: royalblue;
     border-width: 3px;
@@ -230,15 +230,16 @@ footer>p {
 
 .piper>h3 {
     text-align: center;
+    align-self:center;
 }
 
 .acpics {
     opacity: 1;
-    justify-self: center;
     height: 15vw;
     width: 15vw;
     border-radius: 10px 10px 10px 10px;
 }
+
 
 /*Resources html*/
 
