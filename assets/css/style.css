@@ -85,6 +85,7 @@ footer>p {
     gap: 1rem;
     color: orange;
     font-size: 1rem;
+    margin-top: 1rem;
     grid-template-columns: 15vw 35vw 35vw 15vw;
     grid-template-rows: 17vw 17vw 17vw 17vw;
     grid-template-areas:
@@ -97,6 +98,7 @@ footer>p {
 .dream {
     grid-area: b;
     text-align: left;
+    height: 100%;
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #8d5c82;
     border-radius: 0px 10px 10px 0px;
@@ -117,6 +119,7 @@ footer>p {
     grid-area: d;
     text-align: right;
     align-self: end;
+    height:100%;
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #8d5c5e;
     border-radius: 10px 0px 0px 10px;
@@ -133,6 +136,7 @@ footer>p {
 .medical {
     grid-area: f;
     text-align: left;
+    height: 100%;
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #678d5c;
     border-radius: 0px 10px 10px 0px;
@@ -150,6 +154,7 @@ footer>p {
 .ppl {
     grid-area: h;
     text-align: right;
+    height: 100%;
     padding: 0.3rem 0.3rem 0.3rem 0.3rem;
     background-color: #8d6a5c;
     border-radius: 10px 0px 0px 10px;
@@ -230,7 +235,6 @@ footer>p {
 
 .piper>h3 {
     text-align: center;
-    align-self:center;
 }
 
 .acpics {
