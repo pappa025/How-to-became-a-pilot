@@ -300,10 +300,10 @@ footer>p {
         gap: 1rem;
         font-size: 1rem;
         grid-auto-flow: row;
+        justify-content: revert;
+        padding-left: 2rem;
         }
-    .menu {
-        justify-content: right;
-    }
+    
     .dream {
         border-radius: 10px 10px 10px 10px;
     }
@@ -320,30 +320,10 @@ footer>p {
     }
 }
 
-
-
-
-/* header {
-    display: grid;
-    grid-area: nav;
-    grid-template-areas: "header";
-    display: inline;
-    grid-template-columns: 1fr;
-    background-color: #0000EB;
-    background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
-    font-family: 'Rubik', sans-serif;
-    color: orange;
-    border-radius: 0px 0px 10px 10px;
+@media screen and (max-width: 1100px) {
+    .useful-links {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.page-title {
-    display: grid;
-    grid-area: header;
-    padding-bottom: 0.5rem;
-    justify-content: center;
-    gap: 3vw;
-    grid-auto-flow: column;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 0.3rem;
-} */
+
