@@ -3,7 +3,7 @@
 .container {
     background-color: #c0997b;
     display: grid;
-    grid-template-rows: auto minmax(90vh, auto) auto;
+    grid-template-rows: auto minmax(80vh, auto) auto;
     grid-template-areas:
         "nav"
         "main"
@@ -37,7 +37,7 @@ header {
     gap: 3vw;
     grid-auto-flow: column;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.3rem;
 }
 
@@ -86,6 +86,7 @@ footer>p {
     color: orange;
     font-size: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;    
     grid-template-columns: 15vw 35vw 35vw 15vw;
     grid-template-rows: 17vw 17vw 17vw 17vw;
     grid-template-areas:
@@ -99,7 +100,7 @@ footer>p {
     grid-area: b;
     text-align: left;
     height: 100%;
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    padding: 0rem 0.3rem 0rem 0.3rem;
     background-color: #8d5c82;
     border-radius: 0px 10px 10px 0px;
 }
@@ -120,7 +121,7 @@ footer>p {
     text-align: right;
     align-self: end;
     height:100%;
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    padding: 0rem 0.3rem 0rem 0.3rem;
     background-color: #8d5c5e;
     border-radius: 10px 0px 0px 10px;
 }
@@ -137,7 +138,7 @@ footer>p {
     grid-area: f;
     text-align: left;
     height: 100%;
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    padding: 0rem 0.3rem 0rem 0.3rem;
     background-color: #678d5c;
     border-radius: 0px 10px 10px 0px;
 }
@@ -155,7 +156,7 @@ footer>p {
     grid-area: h;
     text-align: right;
     height: 100%;
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    padding: 0rem 0.3rem 0rem 0.3rem;
     background-color: #8d6a5c;
     border-radius: 10px 0px 0px 10px;
 }
@@ -177,6 +178,7 @@ footer>p {
     color: orange;
     grid-template-columns: 14vw 24vw 24vw 24vw 14vw;
     grid-template-rows: auto;
+    border-radius: 10px 10px 10px 10px;
     grid-template-areas:
         "at at at at at"
         ". c152 c172 piper ."
@@ -252,6 +254,7 @@ footer>p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: auto;
+    border-radius: 10px 10px 10px 10px;
     gap: 3rem;
     color: #FF7F50;
 }
