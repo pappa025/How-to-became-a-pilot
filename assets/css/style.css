@@ -79,6 +79,7 @@ footer>p {
 /*main body of the page*/
 
 .main-body {
+    background: url('/assets/images/instrument.jpg') no-repeat center center;
     display: grid;
     grid-area: main;
     gap: 1rem;
