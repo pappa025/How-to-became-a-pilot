@@ -20,7 +20,6 @@ header {
     display: grid;
     grid-area: nav;
     grid-template-areas: "header";
-    display: inline;
     grid-template-columns: 1fr;
     background-color: #0000EB;
     background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
@@ -84,7 +83,7 @@ footer>p {
     grid-area: main;
     gap: 1rem;
     color: orange;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;    
     grid-template-columns: 15vw 35vw 35vw 15vw;
@@ -276,3 +275,75 @@ footer>p {
     border-radius: 10px 10px 10px 10px;
     background-color: darkblue;
 }
+
+/* Media */ 
+
+@media screen and (max-width: 1920px) {
+    .main-body {
+        font-size: 1.1rem;
+    }
+    .page-title {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .main-body {
+        font-size: 0.9rem;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        ". b b ."
+        ". d d ."
+        ". f f ."
+        ". h h ."
+    }
+    .page-title {
+        gap: 1rem;
+        font-size: 1rem;
+        grid-auto-flow: row;
+        }
+    .menu {
+        justify-content: right;
+    }
+    .dream {
+        border-radius: 10px 10px 10px 10px;
+    }
+    .first-steps {
+        border-radius: 10px 10px 10px 10px;
+        text-align: left;
+    }
+    .medical {
+        border-radius: 10px 10px 10px 10px;
+    }
+    .ppl {
+        border-radius: 10px 10px 10px 10px;
+        text-align: left;
+    }
+}
+
+
+
+
+/* header {
+    display: grid;
+    grid-area: nav;
+    grid-template-areas: "header";
+    display: inline;
+    grid-template-columns: 1fr;
+    background-color: #0000EB;
+    background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
+    font-family: 'Rubik', sans-serif;
+    color: orange;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.page-title {
+    display: grid;
+    grid-area: header;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+    gap: 3vw;
+    grid-auto-flow: column;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+} */
