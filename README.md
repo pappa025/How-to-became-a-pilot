@@ -13,9 +13,9 @@ I've also made a detailed page of the 3 most common and widely used training air
 
 The webpage divided to three pages, accessible thrugh the Navbar on the top of the page.
 
-![PPL-page] (https://github.com/pappa025/How-to-do-your-ppl/blob/main/assets/images/main.jpg {height = 400px})- main page with pictures about steps how to get your Private License
-![Aircrafts] (https://github.com/pappa025/How-to-do-your-ppl/blob/main/assets/images/aircrafts.jpg {height = 400px}) - three most common training aircrafts in columns with picture of them
-![Resources] (https://github.com/pappa025/How-to-do-your-ppl/blob/main/assets/images/resources.jpg {height = 400px}) - very useful links for flight planning, weather
+![PPL-page] (../images/main.jpg)- main page with pictures about steps how to get your Private License
+![Aircrafts] (../assets/images/aircrafts.jpg) - three most common training aircrafts in columns with picture of them
+![Resources] (https://github.com/pappa025/How-to-do-your-ppl/blob/main/assets/images/resources.jpg) - very useful links for flight planning, weather
 
 The design is aviation themed. In the set header i've placed cloudy sky background, behind the page contents I've placed a picture of the instrument panel of a General Aviation aircraft.
 In the project I've used darkblue background with orange text color to have great contrast and readability.
