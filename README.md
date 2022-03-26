@@ -13,7 +13,7 @@ I've also made a detailed page of the 3 most common and widely used training air
 
 The webpage divided to three pages, accessible thrugh the Navbar on the top of the page.
 
-![PPL-page] (/assets/images/main.jpg) - main page with pictures and test with the steps how to get your Private License
+![PPL-page] (/assets/images/main.jpg) - main page with pictures about steps how to get your Private License
 ![Aircrafts] (/assets/images/aircrafts.jpg) - three most common training aircrafts in columns with picture of them
 ![Resources] (/assets/images/resources.jpg) - very useful links for flight planning, weather
 
