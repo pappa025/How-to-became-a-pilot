@@ -59,7 +59,7 @@ The CSS code has been run through the [W3C CSS Validator] (https://jigsaw.w3.org
 
 Deployment and source control was entirely done via GitHub. The repository can be found here:
 
-Repo: https://github.com/pappa025/How-to-became-a-pilot
+Repo: https://github.com/pappa025/How-to-do-your-ppl
 
 The site has been deployed using GitHub Pages and is available to review here: 
 
