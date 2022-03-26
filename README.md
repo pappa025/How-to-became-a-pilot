@@ -1,4 +1,5 @@
-#How to do your PPL?
+# How to do your PPL?
+
 ### Milestone Project 1 - HTML/CSS Essentials (HTML, CSS)
 
 This project is the first time when im spreading my wings on the Software Developement world.
@@ -11,9 +12,11 @@ I've also made a detailed page of the 3 most common and widely used training air
 ## UX
 
 The webpage divided to three pages, accessible thrugh the Navbar on the top of the page.
--How to do your PPL? - main page with pictures and test with the steps how to get your Private License
--Aircrafts - three most common training aircrafts in columns with picture of them
--Resources - 
+
+![Main] (assets/images/main.jpg) - main page with pictures and test with the steps how to get your Private License
+![Aircrafts] (assets/images/aircrafts.jpg) - three most common training aircrafts in columns with picture of them
+![Resources] (assets/images/resources.jpg) - very useful links for flight planning, weather
+
 The design is aviation themed. In the set header i've placed cloudy sky background, behind the page contents I've placed a picture of the instrument panel of a General Aviation aircraft.
 In the project I've used darkblue background with orange text color to have great contrast and readability.
 
@@ -26,13 +29,13 @@ The following is a summary of the features already in place and those that could
 The project consist of the three htmls and the corresponding CSS file. The images has been placed in the assets/images directory. Link to the pages are placed in the Header section of the page.
 Parts of the pages were positioned using CSS Grid. It was substantial chellenge to learn the concept, but towards the end of the project I've mastered the layout system. Both Header and Footer is set, they don't change while we navigating between the pages.
 
-How to do your PPL page - consist of explanation of4 main step to get your PPL. Beside the texts there are topic related pictures. corners of each element of the page has curvature, which give nice design to them. As mentioned above darblue background gives great contrast with the orange text for easier readibility. background of the main area is the analogue instrument paner of a Gen Av Aircraft. Header of the page has got a cloud background.
+How to do your PPL page - consist of explanation of 4 main step to get your PPL. Beside the texts there are topic related pictures. corners of each element of the page has curvature, which give nice design to them. As mentioned above darblue background gives great contrast with the orange text for easier readibility. background of the main area is the analogue instrument paner of a Gen Av Aircraft. Header of the page has got a cloud background.
 Aircrafts - 3 coulmns with a slightly transparent picture showing the 3 most common Gen Aviaation trainers with their performance data and characteristics.
 Resources - 9 tiles with pictures to the most widely used external links for General Aviation Pilots. 
 
 ### Features to Implement
 
-XXX
+This page have enourmous improvement opportunity, as my knowledge getting deeper and deeper in software developement, I'm aiming to be the base of the Club's webpage.
 
 ## Testing
 
@@ -60,7 +63,7 @@ Repo: https://github.com/pappa025/How-to-became-a-pilot
 
 The site has been deployed using GitHub Pages and is available to review here: 
 
-Github Pages: https://10xoxr.github.io/IFED_Milestone_2_Exoplanets/.
+Github Pages: https://pappa025.github.io/How-to-do-your-ppl/
 
 Local deployment is not required for this project.
 
