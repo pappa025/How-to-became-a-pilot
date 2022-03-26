@@ -23,7 +23,7 @@ header {
     grid-template-areas: "header";
     grid-template-columns: 1fr;
     background-color: #0000EB;
-    background: url('/assets/images/clouds_header.jpeg') no-repeat center center;
+    background: url(../images/clouds_header.jpeg) no-repeat center center;
     font-family: 'Rubik', sans-serif;
     color: orange;
     border-radius: 0px 0px 10px 10px;
@@ -80,7 +80,7 @@ footer>p {
 /*main body of the page*/
 
 .main-body {
-    background: url('/assets/images/instrument.jpg') no-repeat center center;
+    background: url('../images/instrument.jpg') no-repeat center center;
     display: grid;
     grid-area: main;
     gap: 1rem;
@@ -177,7 +177,7 @@ footer>p {
 /*Aircraft html*/
 
 .aircrafts {
-    background: url('/assets/images/instrument.jpg') no-repeat center center;
+    background: url('../images/instrument.jpg') no-repeat center center;
     display: grid;
     gap: 1rem;
     color: orange;
@@ -255,7 +255,7 @@ footer>p {
 /*Resources html*/
 
 .useful-links {
-    background: url('/assets/images/instrument.jpg') no-repeat center center;
+    background: url('../images/instrument.jpg') no-repeat center center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: auto;
